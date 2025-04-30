@@ -72,9 +72,9 @@
 
     //function to perform currency conversionSSS
     function convert() {
-      let fromCurrency = document.getElementById("fromCurrency").value;      //here the selection of "from which currency" is to be converted and that input is feeded in the variable
-      let toCurrency = document.getElementById("toCurrency").value;         //here the selection of "to which currency" is to be converted and that input is feeded in the variable 
-      let amount = parseFloat(document.getElementById("amount").value);    //here the amount is entered by user
+      let fromCurrency = document.getElementById("fromCurrency").value;     //here the selection of "from which currency" is to be converted and that input is feeded in the variable
+      let toCurrency = document.getElementById("toCurrency").value;        //here the selection of "to which currency" is to be converted and that input is feeded in the variable 
+      let amount = parseFloat(document.getElementById("amount").value);   //here the amount is entered by user
 
       //calculate the conversion rate and the amount
       let conversionRate = getConversionRate(fromCurrency, toCurrency);
